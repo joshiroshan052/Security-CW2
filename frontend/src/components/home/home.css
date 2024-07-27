@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 18px 0;
+}
+
+.left-home {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.lefts{
+    width:"30%"}
+
+.right-home {
+    width: 30%;
+    top: 80px; /* Adjust this value based on the height of your navbar */
+    position: sticky;
+    background: white;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.stories {
+
+    width: 100%;
+    padding-bottom:10px;
+    background-color: white;
+    margin-bottom: 15px;
+    height: 150px;
+    border-radius: 7px;
+    border: 1.7px solid var(--border);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+}
